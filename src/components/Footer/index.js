@@ -2,9 +2,7 @@ import React from 'react';
 import {
   CDBBox, CDBBtn,
 } from 'cdbreact';
-import facebook from '../../../public/image/logo_facebook.png';
-import twitter from '../../../public/image/logo_twitter.png';
-import instagram from '../../../public/image/logo_instagram.jpeg';
+
 import logoSecondLife from '../../../public/image/logosecondlife.jpg';
 
 //= => import style

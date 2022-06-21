@@ -14,7 +14,7 @@ const Header = () => (
   <Navbar className="header-navbar">
     <Container>
       <img alt="logo" src={Logo} width="200" className="d-inline-block align-top" />
-      <Navbar.Brand href="/home">Home</Navbar.Brand>
+      <Navbar.Brand href="/">Home</Navbar.Brand>
       <NavDropdown title="Location" id="basic-nav-dropdown">
         <NavDropdown.Item href="/domaineValombreuse">Le domaine de Valombreuse</NavDropdown.Item>
         <NavDropdown.Divider />

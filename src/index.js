@@ -5,6 +5,7 @@ import { render } from 'react-dom';
 // == Import : local
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Composants
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Secondlife from 'src/components/Secondlife';
 
 // == Render

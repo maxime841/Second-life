@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 
 // == style
@@ -17,7 +18,7 @@ const Secondelife = () => (
     <Header />
     <div className="container">
       <Routes>
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/domaineValombreuse" element={<Valombreuse />} />
         <Route path="/club" element={<Club />} />
       </Routes>

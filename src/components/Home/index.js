@@ -1,6 +1,5 @@
 // == Import yarn
 import React from 'react';
-// import { Card, Image } from 'react-bootstrap';
 
 // == style
 import './home.scss';
@@ -12,7 +11,7 @@ const Home = () => (
       <h1 className="home-title">Système de gestions de propriétées <br />  <span className="span-title">second life </span></h1>
     </div>
     <div className="home-section">
-      <div className="WorkSample col-lg-4 col-12 valombreuse">
+      <div className="WorkSample col-lg-4 col-12 valombreuses">
         <section className="home-item">
           <div className="home-item-title">Domaine valombreuse</div>
           <div className="home-item--overlay" />

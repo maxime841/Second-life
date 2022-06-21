@@ -1,0 +1,35 @@
+.valombreuse {
+  &-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      color: #fff;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 61px;
+      text-align-last: center;
+      padding: 1rem;
+      margin: 4rem 0;
+  }
+
+  &-content {
+    text-align: justify;
+  }
+
+  &-link {
+   text-decoration: none;
+  }
+
+  &-subtitle {
+    color: #DA9B3C;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #FCF992;
+  }
+
+  &-card {
+    background-color: #7CD2BB;
+    color:white
+  }
+}
+
