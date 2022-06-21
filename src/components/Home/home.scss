@@ -1,0 +1,78 @@
+
+body {
+  background-color: #469d50 ;
+}
+
+.home {
+  &-title {
+      font-family: 'Montserrat Alternates', sans-serif;
+      color: #fff;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 61px;
+      .club {     margin-bottom: 0;
+      text-align-last: center;
+  }
+
+  &-header {
+    margin: 4rem 0;
+  }
+
+  &-item--title, .home-section {
+    position: absolute;
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    bottom: 0;
+    padding: 20px;
+    left: 0;
+    transition: left 1.5s;
+  }
+
+  &-item--overlay, .home-section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background: linear-gradient(90deg,#fa4180,#fb5355 94.37%),#c4c4c4;
+    transition: opacity 1s;
+    opacity: 0;
+  }
+  &-item-club {
+    background-image: url('../../../public/image/club.png');
+  }
+  &-item-valombreuse {
+    background-image: url('../../../public/image/volombreuse.jpg');
+  }
+  &-item-paris {
+    background-image: url('https://live.staticflickr.com/65535/49977076836_8a93511679_3k.jpg');
+  }
+}
+}
+section.home-item-image{
+  background-image: url('../../../public/image/club.png')
+}
+section.home-item-valombreuse{
+  background-image: url('http://localhost:8080/images/07e2cf00e4a6ef89bc8d7c121afe8bd7.jpg');
+}
+section.home-item-paris{
+  background-image: url('https://live.staticflickr.com/65535/49977076836_8a93511679_3k.jpg');
+}
+
+
+img.home-image-align {
+  height: 300px;
+  object-fit: cover;
+  width: 25%;
+}
+img.home-image-align:hover{
+  background: linear-gradient(90deg,#fa4180,#fb5355 94.37%),#c4c4c4;
+  transition: opacity 1s;
+  opacity: 0.3;
+}
+
+.home-choice {
+  text-align-last: center;
+}
