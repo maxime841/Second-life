@@ -16,9 +16,9 @@ const Header = () => (
       <img alt="logo" src={Logo} width="200" className="d-inline-block align-top" />
       <Navbar.Brand href="/home">Home</Navbar.Brand>
       <NavDropdown title="Location" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Le domaine de Valombreuse</NavDropdown.Item>
+        <NavDropdown.Item href="/domaineValombreuse">Le domaine de Valombreuse</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.2">Douceur de Paris</NavDropdown.Item>
+        <NavDropdown.Item href="/douceurParis">Douceur de Paris</NavDropdown.Item>
       </NavDropdown>
       <Nav className="me-auto">
         <Nav.Link href="/club">Club</Nav.Link>

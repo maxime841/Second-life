@@ -11,6 +11,7 @@ import Home from 'src/components/Home';
 import Footer from 'src/components/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Valombreuse from '../Valombreuse';
 
 const Secondelife = () => (
   <Router>
@@ -18,8 +19,9 @@ const Secondelife = () => (
     <div className="container">
       <Routes>
         <Route exact path="/home" element={<Home />} />
-        <Route path="/club" element={<Club />} />
         <Route path="/location" element={<Location />} />
+        <Route path="/domaineValombreuse" element={<Valombreuse />} />
+        <Route path="/club" element={<Club />} />
       </Routes>
     </div>
     <Footer />
