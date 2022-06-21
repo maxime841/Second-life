@@ -17,7 +17,7 @@ const Secondelife = () => (
     <Header />
     <div className="container">
       <Routes>
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/club" element={<Club />} />
         <Route path="/location" element={<Location />} />
       </Routes>

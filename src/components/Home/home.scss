@@ -6,20 +6,18 @@ body {
 .home {
   &-title {
       font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
       color: #fff;
       font-style: normal;
       font-weight: 700;
-      font-size: 48px;
+      font-size: 3rem;
       line-height: 61px;
-      .club {     margin-bottom: 0;
       text-align-last: center;
+      padding: 1rem;
+      margin: 4rem 0;
   }
 
-  &-header {
-    margin: 4rem 0;
-  }
-
-  &-item--title, .home-section {
+  &-item-title {
     position: absolute;
     color: #fff;
     font-family: Montserrat,sans-serif;
@@ -28,51 +26,84 @@ body {
     bottom: 0;
     padding: 20px;
     left: 0;
-    transition: left 1.5s;
   }
 
-  &-item--overlay, .home-section {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    background: linear-gradient(90deg,#fa4180,#fb5355 94.37%),#c4c4c4;
-    transition: opacity 1s;
-    opacity: 0;
+  &-item-title:hover{
+    transition: left 3s;
   }
-  &-item-club {
-    background-image: url('../../../public/image/club.png');
+
+  &-header {
+    margin: 4rem 0;
   }
-  &-item-valombreuse {
-    background-image: url('../../../public/image/volombreuse.jpg');
+
+  &-description {
+    display: flex;
+    margin: 3rem 0;
+    justify-content: center;
   }
-  &-item-paris {
-    background-image: url('https://live.staticflickr.com/65535/49977076836_8a93511679_3k.jpg');
+
+  &-section {
+    display: flex;
+    justify-content: space-evenly;
+    transition: background-color 5s linear;
   }
+  &-section:hover {
+    background: linear-gradient(90deg,#e44033,#a5170d 94.37%),#4b0c07;
+  }
+
 }
+
+
+.span-title {
+  font-style: italic;
+  font-weight: 900;
+  background-color: #f2f054;
+  background-image: linear-gradient(-133deg,#fec85e,#e44034);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Playfair Display;
 }
-section.home-item-image{
+
+h2 {
+  color: #f2f054;
+  border-bottom: 1px #e74f39 solid;
+}
+
+.description-section {
+  margin: 0 1rem;
+  width: 45%;
+}
+
+.club{
   background-image: url('../../../public/image/club.png')
 }
-section.home-item-valombreuse{
-  background-image: url('http://localhost:8080/images/07e2cf00e4a6ef89bc8d7c121afe8bd7.jpg');
+.valombreuse{
+  background-image: url('../../../public/image/volombreuse.jpg');
 }
-section.home-item-paris{
-  background-image: url('https://live.staticflickr.com/65535/49977076836_8a93511679_3k.jpg');
+.paris{
+  background-image: url('../../../public/image/Paris.png');
 }
 
-
-img.home-image-align {
+.paris,.valombreuse,.club {
   height: 300px;
-  object-fit: cover;
-  width: 25%;
-}
-img.home-image-align:hover{
-  background: linear-gradient(90deg,#fa4180,#fb5355 94.37%),#c4c4c4;
-  transition: opacity 1s;
-  opacity: 0.3;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.99;
+  overflow: hidden;
+  box-shadow: 10px 5px 5px #3c2626
 }
 
-.home-choice {
-  text-align-last: center;
+
+.WorkSample{
+	transform: scale(1);
+	transition: .3s ease-in-out;
 }
+.WorkSample:hover {
+  opacity: 0.5;
+  transition: opacity 1s;
+  z-index: 9;
+}
+
