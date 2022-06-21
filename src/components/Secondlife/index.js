@@ -8,6 +8,7 @@ import Header from 'src/components/Header';
 import Club from 'src/components/Club';
 import Location from 'src/components/Location';
 import Home from 'src/components/Home';
+import Footer from 'src/components/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ const Secondelife = () => (
         <Route path="/location" element={<Location />} />
       </Routes>
     </div>
+    <Footer />
   </Router>
 );
 
